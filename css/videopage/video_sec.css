@@ -1,0 +1,111 @@
+.navbar {
+  background-color: #111E36 !important;
+}
+
+.video-wrapper {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 1;
+  overflow: hidden;
+  top: 40%;
+  padding: 0% !important;
+}
+
+.video-wrapper .content {
+  margin-top: 15%;
+  margin-left: 5%;
+}
+
+.video-wrapper h1 {
+  font-size: 126px;
+  color: white;
+}
+
+.video-wrapper .video-btn {
+  padding: 2%;
+  color: white;
+  border-color: white;
+  width: 40%;
+  height: 20%;
+  font-size: 30px;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+.video-wrapper .video-btn:hover {
+  color: black;
+  background-color: white !important;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+#back-video {
+  width: 99vw;
+  position: absolute;
+  z-index: -1;
+}
+
+.newcont {
+  margin-top: 20%;
+  height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    margin-top: 17% !important;
+  }
+  .content h1 {
+    font-size: 34px;
+  }
+  .content .video-btn {
+    padding: 1%;
+    color: white;
+    border-color: white;
+    width: 27%;
+    font-size: 11px;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+  }
+  .navbar-toggler {
+    margin-left: -2% !important;
+  }
+  .newcont {
+    margin-top: 8% !important;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .content h1 {
+    font-size: 64px;
+  }
+  .content .video-btn {
+    padding: 1%;
+    color: white;
+    border-color: white;
+    width: 23%;
+    height: 20%;
+    font-size: 16px;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+  }
+  .newcont {
+    margin-top: 17%;
+  }
+  .navbar-toggler {
+    margin-left: -8% !important;
+  }
+}
+/*# sourceMappingURL=video_sec.css.map */

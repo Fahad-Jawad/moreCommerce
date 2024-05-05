@@ -1,0 +1,43 @@
+$primary:#111E36;
+$secondary:#50c0fc;
+$link-color:white;
+$hover-color:#50c0fc;
+$white-dim:#8b8b8b5e;
+$dropdown-color: #142640;
+$edge-radius:8px;
+$spacer:.125rem;
+$dropdown-item-padding-y: $spacer * .25;
+$heading-color:white;
+$paragraph-color:#A1ACB2;
+$font-family:DM Sans,sans-serif;
+$card-color:#142640;
+$footer:#071020;
+
+@mixin hover-btn {
+    transform: translateY(-12px);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transform: translateY(-12px);
+    -moz-transform: translateY(-12px);
+    -ms-transform: translateY(-12px);
+    -o-transform: translateY(-12px);
+}
+
+@mixin heading($color,$align) {
+    color:$color;
+    font-family: $font-family;
+    text-align: $align;
+}
+@mixin paragraph {
+    color:$paragraph-color;
+        font-size: larger;
+}
+@mixin blur-img($left) {
+    z-index: -1;
+    position: absolute;
+    width: 43%;
+    left: $left;
+}
